@@ -11,8 +11,8 @@ endif()
 
 # Tendran que tener su propio CMakeLists.txt porque  este dejara de ver sus fuentes al estar en otro directorio!
 #[[ Add subdirectories to the build tree. We are telling CMake to go inside these subdirs & then find another CMakeList.txt file in the subdirs & thereafter run those one by one]]
-add_subdirectory(my_math_dir)
-add_subdirectory(my_print_dir)
+add_subdirectory(my_math)
+add_subdirectory(my_print)
 
 add_executable(calculator main.cpp)
 
