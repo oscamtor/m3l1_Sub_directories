@@ -2,7 +2,7 @@
 m3l1_Sub_directories- description
 
 *********************************************************************************************************
-Ejemplo de aplicacion de consola compilable con cmake que usa dos librerias (my_math y my_print_dir) 
+Ejemplo de aplicacion de consola compilable con cmake que usa dos librerias (my_math y my_print) 
 
 
 Estructura inicial
@@ -37,7 +37,7 @@ developer@LUBUNTU-DEV /mnt/SHARED/CMake_Curse/m3l1_Sub_directories- (main)$ ls -
 
 changelog
 ***************
-20220225 Commit inicial. Sobre el original (m3l11) homonimo del curso lleva como mejoras: m3l12 (managing header files: .h en sus respectivas librerias en lugar de en el raiz) ,  m3l12 (cmake way of including header files: .h en include y .cpp en src gracias a crear dichos directorios include y src, mover a ellos los .h y .cpp respectivamente y en el CMakeLists.txt de cada libraria en add_library anteponer a cada cpp el prefijo con el directorio relativo desde dicho CMakeLists.txt de la libreria a cada cpp)
+20220225 Commit inicial. Sobre el original (m3l11) homonimo del curso lleva como mejoras: m3l12 (managing header files: .h en sus respectivas librerias en lugar de en el raiz) ,  m3l12 (cmake way of including header files: .h en subidr include y .cpp en subdir src gracias a crear dichos directorios include y src, mover a ellos los .h y .cpp respectivamente y en el CMakeLists.txt de cada libraria en add_library anteponer a cada cpp el prefijo con el directorio relativo desde dicho CMakeLists.txt de la libreria a. Los .h no se referencian. Si los .cpp)
 
 
 Depurado ok en qtcreator tras:

@@ -1,6 +1,10 @@
-
+**/debug
 /debug
 /debug/*
+**/release
 /release
 /release/*
+**/cmake-build-debug
+/cmake-build-debug
+/cmake-build-debug/*
 
